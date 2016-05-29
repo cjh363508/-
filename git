@@ -1,0 +1,21 @@
+git clone +仓库地址
+改文件内容
+git status	查看目录状态
+git add +文件名	添加文件
+git add .	添加所有文件
+git config --global user.email "+邮箱或者"
+git config --global user.name "+用户名设置仓库"
+git commit -m “+注释提交更改”
+git push	写入git仓库
+
+
+有目录，不是仓库的，新建仓库
+git init	初始化
+git add		加入文件
+git commit	提交
+
+git checkout -- 文件名		恢复被修改文件
+git checkout -- .		恢复所有文件
+git remote add 名称 +链接
+git push --set-upstream	
+git push --set-upstream 对应名称 master
